@@ -17,7 +17,7 @@ public class Main {
 	private static final Logger logger = LoggerFactory.getLogger(Main.class);
 			
 	public static void main(String[] args) throws InterruptedException {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello-world-pu");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello-world");
 		EntityManager em = emf.createEntityManager();
 		try {
 			populateDb(em);

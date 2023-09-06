@@ -1,3 +1,7 @@
 {
-	"connectionString": "your connectionString here"
+  "connectionString": "Your Connection String Goes here",
+  "role":             {
+    "name":     "helloworld",
+    "instance": "helloworld"
+  }
 }
