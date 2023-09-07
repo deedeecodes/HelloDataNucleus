@@ -1,7 +1,7 @@
 {
-  "connectionString": "Your Connection String Goes here",
+  "connectionString": "InstrumentationKey=97a2cee3-d1ae-45f8-81b4-147c802abbf9;IngestionEndpoint=https://westeurope-5.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/",
   "role":             {
-    "name":     "helloworld",
-    "instance": "helloworld"
+    "name":     "helloworld-fixed",
+    "instance": "helloworld-fixed-instance"
   }
 }

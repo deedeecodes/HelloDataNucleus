@@ -11,9 +11,10 @@ This is a secret and should not be checked in to source control. Please do not c
 The following runs on linux. On Windows use the SET command instead of export
 
 ```bash
+mvn clean compile
 mvn datanucleus:enhance   # this will enhance the classes in the target directory
 export OTEL_JAVAAGENT_EXCLUDE_CLASSES=org.datanucleus.store.rdbms.ParamLoggingPreparedStatement
-mvn compile exec:exec`    # and this runs the application
+mvn  exec:exec`    # and this runs the application
 ```
 
 You may get a h2 exception on start up but that is ok and not linked to this issue
